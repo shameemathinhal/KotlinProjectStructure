@@ -10,10 +10,13 @@ import com.shameem.projectstructure.R
 import com.shameem.projectstructure.base.BaseFragment
 import com.shameem.projectstructure.data.api.ApiHelperImpl
 import com.shameem.projectstructure.data.api.RetrofitBuilder
+import com.shameem.projectstructure.utils.Animations
 import com.shameem.projectstructure.utils.Status
 import com.shameem.projectstructure.utils.ViewModelFactory
+import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : BaseFragment() {
+
     private lateinit var homeViewModel: HomeViewModel
     override fun setView(
         inflater: LayoutInflater?,
@@ -55,7 +58,10 @@ class HomeFragment : BaseFragment() {
     }
 
     override fun onClicks() {
+        tvSample.setOnClickListener {
 
+        }
     }
+
 
 }

@@ -8,6 +8,7 @@
     tools:context=".ui.home.HomeActivity">
 
     <TextView
+        android:id="@+id/tvSample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
